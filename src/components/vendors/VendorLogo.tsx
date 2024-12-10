@@ -11,6 +11,7 @@ const VendorLogo: React.FC<VendorLogoProps> = ({ src, alt }) => {
       <img
         src={src}
         alt={alt}
+        loading="lazy"
         className="h-12 object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
       />
     </div>

@@ -1,5 +1,4 @@
-import React from 'react';
-import { HiOfficeBuilding } from 'react-icons/hi';
+import LogoIcon from'./assets/logo.png'
 import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
@@ -9,7 +8,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
             <div className="flex items-center">
-              <HiOfficeBuilding className="h-8 w-8 text-blue-400" />
+              {/* <HiOfficeBuilding className="h-8 w-8 text-blue-400" /> */}
+              <img src={LogoIcon} alt="Logo"  loading="lazy" className="h-16 w-16" />
               <span className="ml-2 text-xl font-bold">AdmanPower</span>
             </div>
             <p className="text-gray-400">
