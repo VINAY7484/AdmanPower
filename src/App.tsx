@@ -1,7 +1,9 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
+import SliderSection from './components/slider/SliderSection';
+import Features from './components/features/Features';
 import Services from './components/Services';
+import AboutSection from './components/about/AboutSection';
 import Vendors from './components/vendors/Vendors';
 import Testimonials from './components/testimonials/Testimonials';
 import Contact from './components/Contact';
@@ -11,10 +13,12 @@ function App() {
   return (
     <div className="min-h-screen">
       <Navbar />
-      <Hero />
+      <SliderSection />
       <Services />
-      <Vendors />
+      <AboutSection />
+      <Features />
       <Testimonials />
+      <Vendors />
       <Contact />
       <Footer />
     </div>
