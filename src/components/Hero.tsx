@@ -28,6 +28,7 @@ const Hero = () => {
             <img
               src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80"
               alt="Business team working"
+              loading="lazy"
               className="rounded-lg shadow-xl"
             />
           </div>
