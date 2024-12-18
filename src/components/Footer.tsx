@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="flex items-center">
               {/* <HiOfficeBuilding className="h-8 w-8 text-blue-400" /> */}
               <img src={LogoIcon} alt="Logo"  loading="lazy" className="h-16 w-16" />
-              <span className="ml-2 text-xl font-bold">AdmanPower</span>
+              <span className="ml-2 text-xl font-bold">AD Manpower</span>
             </div>
             <p className="text-gray-400">
               Empowering businesses with innovative management solutions.
@@ -63,7 +63,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} AdmanPower. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} AD Manpower. All rights reserved.</p>
         </div>
       </div>
     </footer>
