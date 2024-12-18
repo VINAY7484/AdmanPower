@@ -8,12 +8,14 @@ import Vendors from './components/vendors/Vendors';
 import Testimonials from './components/testimonials/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Hero from './components/Hero';
 
 function App() {
   return (
     <div className="min-h-screen">
       <Navbar />
       <SliderSection />
+      <Hero/>
       <Services />
       <AboutSection />
       <Features />

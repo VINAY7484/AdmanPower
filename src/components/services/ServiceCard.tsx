@@ -9,7 +9,7 @@ interface ServiceCardProps {
 
 const ServiceCard: React.FC<ServiceCardProps> = ({ icon, title, description }) => {
   return (
-    <div className="p-6 bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+    <div className="p-6 bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow border">
       <div className="flex justify-center">{icon}</div>
       <h3 className="mt-4 text-xl font-semibold text-gray-900 text-center">
         {title}

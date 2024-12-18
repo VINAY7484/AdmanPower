@@ -9,14 +9,14 @@ interface LogoProps {
 
 const Logo: React.FC<LogoProps> = ({ 
   className = "flex items-center",
-  iconClassName = "h-16 w-16 text-blue-600",
+  iconClassName = "h-12 w-12 text-blue-600",
   textClassName = "ml-2 text-xl font-bold text-gray-800"
 }) => {
   return (
     <div className={className}>
       {/* <HiOfficeBuilding className={iconClassName} /> */}
       <img src={LogoIcon} alt="Logo" loading="lazy" className={iconClassName} />
-      <span className={textClassName}>AdmanPower</span>
+      <span className={textClassName}>AD Manpower</span>
     </div>
   );
 };
