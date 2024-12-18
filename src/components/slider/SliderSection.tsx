@@ -5,24 +5,27 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { BsArrowRight } from 'react-icons/bs';
+import image1 from '../assets/image/image1.jpg'
+import image2 from '../assets/image/image2.jpg'
+import image3 from '../assets/image/image3.jpg'
 
 const slides = [
   {
     title: "Transform Your Business Operations",
     description: "Streamline processes and boost efficiency with our expert solutions",
-    image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80",
+    image: image1,
     buttonText: "Get Started"
   },
   {
     title: "Expert Management Solutions",
     description: "Unlock your business potential with our comprehensive management services",
-    image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80",
+    image: image2,
     buttonText: "Learn More"
   },
   {
     title: "Drive Growth and Innovation",
     description: "Partner with us to achieve sustainable business growth",
-    image: "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&q=80",
+    image: image3,
     buttonText: "Contact Us"
   }
 ];
