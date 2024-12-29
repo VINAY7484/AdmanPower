@@ -47,7 +47,7 @@ const AboutSection: React.FC = () => {
               Transforming Businesses Since 2009
             </h2>
             <p className="text-lg text-gray-600 mb-8">
-              At AdmanPower, we're dedicated to helping businesses reach their full potential through innovative management solutions and strategic guidance.
+              At AD Manpower, we're dedicated to helping businesses reach their full potential through innovative management solutions and strategic guidance.
             </p>
             <div className="space-y-4">
               {['Industry-leading expertise', 'Customized solutions', 'Proven track record'].map((item, index) => (
