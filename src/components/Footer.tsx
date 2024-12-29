@@ -54,10 +54,10 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
             <ul className="space-y-2 text-gray-400">
-              <li>123 Business Street</li>
-              <li>New York, NY 10001</li>
-              <li>Phone: +1 (555) 123-4567</li>
-              <li>Email: contact@admanpower.com</li>
+              <li>D2/2/2A, DLF Dilshad Ext. -II,</li>
+              <li>Sahibabad, Ghaziabad - 201005</li>
+              <li>Phone: +91 9899993520</li>
+              <li>Email: Admejobs18@gmail.com</li>
             </ul>
           </div>
         </div>
