@@ -3,7 +3,7 @@ import TestimonialCard from './TestimonialCard';
 
 const testimonials = [
   {
-    content: "AdmanPower transformed our business operations. Their expertise in performance optimization led to a 40% increase in productivity.",
+    content: "AD Manpower transformed our business operations. Their expertise in performance optimization led to a 40% increase in productivity.",
     author: "Sarah Johnson",
     role: "CEO",
     company: "TechVision Inc",
@@ -11,7 +11,7 @@ const testimonials = [
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&auto=format"
   },
   {
-    content: "The team management solutions provided by AdmanPower helped us build and maintain high-performing teams across multiple departments.",
+    content: "The team management solutions provided by AD Manpower helped us build and maintain high-performing teams across multiple departments.",
     author: "Michael Chen",
     role: "Operations Director",
     company: "Global Solutions",

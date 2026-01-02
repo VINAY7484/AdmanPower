@@ -9,6 +9,7 @@ import Testimonials from './components/testimonials/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
+import Team from './components/teams/Team';
 
 function App() {
   return (
@@ -20,8 +21,9 @@ function App() {
       <AboutSection />
       <Features />
       <Testimonials />
-      <Vendors />
+      <Team />
       <Contact />
+      <Vendors />
       <Footer />
     </div>
   );

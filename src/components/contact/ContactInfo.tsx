@@ -5,20 +5,20 @@ const contactDetails = [
   {
     icon: <HiMail className="h-6 w-6 text-blue-600 mt-1" />,
     title: 'Email',
-    content: 'admanpowerenterprises@gmail.com',
+    content: 'admejobs18@gmail.com',
     // content: 'admanpowerenterprises@gmail.com'
   },
   {
     icon: <HiPhone className="h-6 w-6 text-blue-600 mt-1" />,
     title: 'Phone',
-    content: '+91 9899991560 ',
-    content2: '+91 9899991560'
+    content: '+91 9899993520 ',
+    // content2: '+91 9899991560'
   },
   {
     icon: <HiLocationMarker className="h-6 w-6 text-blue-600 mt-1" />,
     title: 'Address',
-    content: '123 Business Street\nNew York, NY 10001',
-    content2: '123 Business Street\nNew York, NY 10001'
+    content: 'D2/2/2A, DLF Dilshad Ext. -II, ',
+    content2: 'Sahibabad, Ghaziabad - 201005'
   }
 ];
 
