@@ -1,4 +1,4 @@
-import LogoIcon from'./assets/logo.png'
+import LogoIcon from'../../public/image/logo.png'
 import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
@@ -22,7 +22,7 @@ const Footer = () => {
               <a href="#" className="text-gray-400 hover:text-white">
                 <FaTwitter className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white">
+              <a href="https://www.linkedin.com/company/ad-manpower" className="text-gray-400 hover:text-white">
                 <FaLinkedin className="h-5 w-5" />
               </a>
               <a href="#" className="text-gray-400 hover:text-white">
@@ -34,10 +34,10 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li><a href="#home" className="text-gray-400 hover:text-white">Home</a></li>
-              <li><a href="#services" className="text-gray-400 hover:text-white">Services</a></li>
-              <li><a href="#about" className="text-gray-400 hover:text-white">About</a></li>
-              <li><a href="#contact" className="text-gray-400 hover:text-white">Contact</a></li>
+              <li><a href="/" className="text-gray-400 hover:text-white">Home</a></li>
+              <li><a href="services" className="text-gray-400 hover:text-white">Services</a></li>
+              <li><a href="about" className="text-gray-400 hover:text-white">About</a></li>
+              <li><a href="contact" className="text-gray-400 hover:text-white">Contact</a></li>
             </ul>
           </div>
 
@@ -54,16 +54,18 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
             <ul className="space-y-2 text-gray-400">
-              <li>D2/2/2A, DLF Dilshad Ext. -II,</li>
-              <li>Sahibabad, Ghaziabad - 201005</li>
-              <li>Phone: +91 9899993520</li>
-              <li>Email: Admejobs18@gmail.com</li>
+              <li>OFFICE NO. A-74, DEFENCE COLONY, </li>
+              <li> MAIN ROAD BHOPURA,SAHIBABAD, </li>
+              <li> GHAZIABAD, UP-201005</li>
+              <li>Phone: +91 9899991560</li>
+              <li>Email: admanpowerenterprises@gmail.com</li>
             </ul>
           </div>
         </div>
 
         <div className="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
           <p>&copy; {new Date().getFullYear()} AD Manpower. All rights reserved.</p>
+          {/* <p>&copy; {new Date().getFullYear()} AD Manpower. All rights reserved.</p> */}
         </div>
       </div>
     </footer>
