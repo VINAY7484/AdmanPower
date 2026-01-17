@@ -15,10 +15,10 @@ const Contact: React.FC = () => {
         </div>
 
         <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="bg-white rounded-lg shadow-lg p-8">
+          <div className="">
             <ContactForm />
           </div>
-          <div className="bg-white rounded-lg shadow-lg p-8">
+          <div className="">
             <ContactInfo />
           </div>
         </div>
