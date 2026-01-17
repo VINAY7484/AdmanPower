@@ -1,42 +1,64 @@
-import React from 'react';
-import { HiMail, HiPhone, HiLocationMarker } from 'react-icons/hi';
+import React from 'react'
+import { HiMail, HiPhone, HiLocationMarker } from 'react-icons/hi'
 
 const contactDetails = [
   {
-    icon: <HiMail className="h-6 w-6 text-blue-600 mt-1" />,
+    icon: HiMail,
     title: 'Email',
-    content: 'admejobs18@gmail.com',
-    // content: 'admanpowerenterprises@gmail.com'
+    content: 'admanpowerenterprises@gmail.com',
   },
   {
-    icon: <HiPhone className="h-6 w-6 text-blue-600 mt-1" />,
+    icon: HiPhone,
     title: 'Phone',
-    content: '+91 9899993520 ',
-    // content2: '+91 9899991560'
+    content: '+91 9899991560',
+    content2: '+91 9899991560',
   },
   {
-    icon: <HiLocationMarker className="h-6 w-6 text-blue-600 mt-1" />,
+    icon: HiLocationMarker,
     title: 'Address',
-    content: 'D2/2/2A, DLF Dilshad Ext. -II, ',
-    content2: 'Sahibabad, Ghaziabad - 201005'
-  }
-];
+    content: 'OFFICE NO. A-74, DEFENCE COLONY, ',
+    content2: 'MAIN ROAD BHOPURA,SAHIBABAD, ',
+    content3: 'GHAZIABAD, UP-201005',
+  },
+]
 
 const ContactInfo: React.FC = () => {
   return (
-    <div className="space-y-8">
-      {contactDetails.map((detail, index) => (
-        <div key={index} className="flex items-start">
-          {detail.icon}
-          <div className="ml-4">
-            <h3 className="text-lg font-medium text-gray-900">{detail.title}</h3>
-            <p className="mt-1 text-gray-600 whitespace-pre-line">{detail.content}</p>
-            <p className="mt-1 text-gray-600 whitespace-pre-line">{detail.content2}</p>
-          </div>
-        </div>
-      ))}
-    </div>
-  );
-};
+    <div className="bg-white rounded-2xl shadow-xl border p-8 space-y-6 max-w-2xl">
+      <h3 className="text-2xl font-bold text-neutral-900 mb-4 text-center">
+        Contact <span className="text-primary-600">Information</span>
+      </h3>
 
-export default ContactInfo;
+      {contactDetails.map((detail, index) => {
+        const Icon = detail.icon
+        return (
+          <div
+            key={index}
+            className="grid grid-cols-12 items-start gap-4 p-4 rounded-xl bg-neutral-50 hover:bg-neutral-100 transition shadow-sm border"
+          >
+            {/* Label + Icon */}
+            <div className="col-span-3 flex items-center gap-2 text-sm font-semibold text-neutral-700">
+              <span className="p-2 rounded-lg bg-primary-100 text-primary-600">
+                <Icon className="w-5 h-5" />
+              </span>
+              {detail.title}
+            </div>
+
+            {/* Value */}
+            <div className="col-span-9 text-sm text-neutral-700 leading-relaxed">
+              <p>{detail.content}</p>
+              {detail.content2 && (
+                <p className="mt-1 text-neutral-500">{detail.content2}</p>
+              )}
+              {detail.content3 && (
+                <p className="mt-1 text-neutral-500">{detail.content3}</p>
+              )}
+            </div>
+          </div>
+        )
+      })}
+    </div>
+  )
+}
+
+export default ContactInfo

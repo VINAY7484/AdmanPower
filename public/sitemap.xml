@@ -5,11 +5,20 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.admanpowerenterprises.com/#about</loc>
+    <loc>https://www.admanpowerenterprises.com/about</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.admanpowerenterprises.com/#contact</loc>
+    <loc>https://www.admanpowerenterprises.com/services</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+  </url>
+    <loc>https://www.admanpowerenterprises.com/contact</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.admanpowerenterprises.com/jobs</loc>
     <priority>0.8</priority>
   </url>
 </urlset>

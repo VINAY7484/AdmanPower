@@ -1,6 +1,6 @@
 import React from 'react';
-import LogoIcon from'../assets/logo.png'
-
+import LogoIcon from'../../../public/image/logo.png'
+import { Link } from 'react-router-dom';
 interface LogoProps {
   className?: string;
   iconClassName?: string;
@@ -13,11 +13,11 @@ const Logo: React.FC<LogoProps> = ({
   textClassName = "ml-2 text-xl font-bold text-gray-800"
 }) => {
   return (
-    <div className={className}>
+    <Link to='/' className={className}>
       {/* <HiOfficeBuilding className={iconClassName} /> */}
       <img src={LogoIcon} alt="Logo" loading="lazy" className={iconClassName} />
       <span className={textClassName}>AD Manpower</span>
-    </div>
+    </Link>
   );
 };
 
